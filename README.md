@@ -13,6 +13,8 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chinmay0910&theme=bear)
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=chinmay0910&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
@@ -33,16 +35,6 @@
 
 <!--GITHUB_STATS_END-->
 
-# 📦 Latest Repositories
-
-<!--LATEST_REPOS_START-->
-- **chinmay0910** ⭐ 0 | 🍴 0
-- **passport-photo-maker** ⭐ 0 | 🍴 0
-- **PhishingMails_Admin** ⭐ 0 | 🍴 1
-- **ViolenceDetection** ⭐ 0 | 🍴 0
-- **Event-Management-System** ⭐ 0 | 🍴 1
-<!--LATEST_REPOS_END-->
-
 # 📊 GitHub Stats
 
 ![GitHub Stats](./assets/github-stats.svg)
@@ -61,8 +53,16 @@
 - ⭐ 0 - [AviationChallenge](https://github.com/chinmay0910/AviationChallenge)
 <!--TOP_REPOS_END-->
 
+
+# 📦 Latest Repositories
+
+<!--LATEST_REPOS_START-->
+- **chinmay0910** ⭐ 0 | 🍴 0
+- **passport-photo-maker** ⭐ 0 | 🍴 0
+- **PhishingMails_Admin** ⭐ 0 | 🍴 1
+- **ViolenceDetection** ⭐ 0 | 🍴 0
+- **Event-Management-System** ⭐ 0 | 🍴 1
+<!--LATEST_REPOS_END-->
+
+
 ---
-
-## 👀 Profile Visitors
-
-![Visitor Count](./assets/visitor-count.svg)
