@@ -26,31 +26,16 @@
 <table>
 <tr>
 <td width="50%">
-
-<img src="https://github-readme-stats.vercel.app/api?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true"/>
-
+  <img src="https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false"/>
 </td>
 
 <td width="50%">
-
-<img src="https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false"/>
-
+  <img src="./assets/top-languages.svg"/>
 </td>
 </tr>
 </table>
 
 <br>
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
-</p>
-
-<p align="center">
-<img src="./assets/top-languages.svg"/>
-</p>
-
-[![](https://visitcount.itsvg.in/api?id=chinmay0910\&icon=0\&color=0)](https://visitcount.itsvg.in)
-
 
 ## 🔝 Top Contributed Repositories
 
