@@ -1,6 +1,52 @@
 
-<svg width="450" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="220" xmlns="http://www.w3.org/2000/svg">
+
 <rect width="100%" height="100%" fill="#0d1117"/>
-<text x="20" y="40" fill="white" font-size="18">Top Languages</text>
-<text x="20" y="60" fill="white">Python: 5</text><text x="20" y="85" fill="white">HTML: 6</text><text x="20" y="110" fill="white">CSS: 2</text><text x="20" y="135" fill="white">JavaScript: 23</text><text x="20" y="160" fill="white">EJS: 4</text>
+
+<text x="20" y="30" fill="white" font-size="18">
+Top Languages
+</text>
+
+
+      <text x="20" y="60" fill="white" font-size="13">JavaScript</text>
+
+      <rect x="120" y="48" width="250" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="378" y="60" fill="white"
+        font-size="12">23</text>
+    
+      <text x="20" y="88" fill="white" font-size="13">HTML</text>
+
+      <rect x="120" y="76" width="65.21739130434783" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="193.2173913043478" y="88" fill="white"
+        font-size="12">6</text>
+    
+      <text x="20" y="116" fill="white" font-size="13">Python</text>
+
+      <rect x="120" y="104" width="54.34782608695652" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="182.34782608695653" y="116" fill="white"
+        font-size="12">5</text>
+    
+      <text x="20" y="144" fill="white" font-size="13">EJS</text>
+
+      <rect x="120" y="132" width="43.47826086956522" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="171.47826086956522" y="144" fill="white"
+        font-size="12">4</text>
+    
+      <text x="20" y="172" fill="white" font-size="13">CSS</text>
+
+      <rect x="120" y="160" width="21.73913043478261" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="149.73913043478262" y="172" fill="white"
+        font-size="12">2</text>
+    
+
 </svg>
