@@ -12,22 +12,45 @@
 
 ---
 
-# 📊 GitHub Statistics:
+## 📊 GitHub Statistics
+
 <!--GITHUB_STATS_START-->
-- ⭐ Public Repositories: 46
-- 👥 Followers: 2
-- 👤 Following: 0
-- 📅 Last Updated: 3/8/2026, 5:22:38 PM
+
+* ⭐ Public Repositories: 46
+* 👥 Followers: 2
+* 👤 Following: 0
+* 📅 Last Updated: 3/8/2026, 5:22:38 PM
 
 <!--GITHUB_STATS_END-->
 
-![](https://github-readme-stats.vercel.app/api?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<table>
+<tr>
+<td width="50%">
 
-[![](https://visitcount.itsvg.in/api?id=chinmay0910&icon=0&color=0)](https://visitcount.itsvg.in)
+<img src="https://github-readme-stats.vercel.app/api?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true"/>
 
-![Top Languages](./assets/top-languages.svg)
+</td>
+
+<td width="50%">
+
+<img src="https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false"/>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinmay0910&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact"/>
+</p>
+
+<p align="center">
+<img src="./assets/top-languages.svg"/>
+</p>
+
+[![](https://visitcount.itsvg.in/api?id=chinmay0910\&icon=0\&color=0)](https://visitcount.itsvg.in)
+
 
 ## 🔝 Top Contributed Repositories
 
