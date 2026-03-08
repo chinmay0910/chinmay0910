@@ -56,34 +56,63 @@ ${bars}
 `
 }
 
-function updateTopRepos(readme, repos) {
-  const sorted = repos
-    .sort((a,b)=>b.stargazers_count - a.stargazers_count)
-    .slice(0,5);
+async function getContributionRepos() {
+  const events = await fetch(
+    `https://api.github.com/users/${username}/events/public`
+  ).then(r => r.json());
 
-  const list = sorted.map(r =>
-    `- ⭐ ${r.stargazers_count} - [${r.name}](${r.html_url})`
-  ).join("\n");
+  const contributions = {};
+
+  events.forEach(event => {
+    if (event.type === "PushEvent") {
+
+      const repo = event.repo.name
+      const commits = event.payload.commits?.length || 0
+
+      contributions[repo] = (contributions[repo] || 0) + commits
+    }
+  })
+
+  return Object.entries(contributions)
+    .sort((a,b)=>b[1]-a[1])
+    .slice(0,5)
+}
+
+async function updateTopRepos(readme) {
+
+  const repos = await getContributionRepos()
+
+  const list = repos.map(([repo,count]) => {
+
+    const url = `https://github.com/${repo}`
+    const name = repo.split("/")[1]
+
+    return `- 🔧 ${count} commits - [${name}](${url})`
+
+  }).join("\n")
 
   return readme.replace(
     /<!--TOP_REPOS_START-->[\s\S]*<!--TOP_REPOS_END-->/,
     `<!--TOP_REPOS_START-->\n${list}\n<!--TOP_REPOS_END-->`
-  );
+  )
 }
 
 async function main() {
-  const { repos } = await fetchData();
 
-  const langSVG = generateLanguagesSVG(repos);
+  const { repos } = await fetchData()
 
-  fs.writeFileSync("assets/top-languages.svg", langSVG);
+  const langSVG = generateLanguagesSVG(repos)
 
-  const readme = fs.readFileSync("README.md","utf8");
-  const updated = updateTopRepos(readme, repos);
+  fs.writeFileSync("assets/top-languages.svg", langSVG)
 
-  fs.writeFileSync("README.md", updated);
+  const readme = fs.readFileSync("README.md","utf8")
 
-  console.log("README updated");
+  const updated = await updateTopRepos(readme)
+
+  fs.writeFileSync("README.md", updated)
+
+  console.log("README updated")
+
 }
 
 main();
