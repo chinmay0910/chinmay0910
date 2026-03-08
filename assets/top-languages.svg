@@ -1,1 +1,6 @@
 
+<svg width="450" height="200" xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="#0d1117"/>
+<text x="20" y="40" fill="white" font-size="18">Top Languages</text>
+<text x="20" y="60" fill="white">Python: 5</text><text x="20" y="85" fill="white">HTML: 6</text><text x="20" y="110" fill="white">CSS: 2</text><text x="20" y="135" fill="white">JavaScript: 23</text><text x="20" y="160" fill="white">EJS: 4</text>
+</svg>
