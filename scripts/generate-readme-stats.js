@@ -28,29 +28,50 @@ function generateStatsSVG(user, repos) {
 }
 
 function generateLanguagesSVG(repos) {
-  const langs = {};
+  const langs = {}
 
   repos.forEach(repo => {
     if (repo.language) {
-      langs[repo.language] = (langs[repo.language] || 0) + 1;
+      langs[repo.language] = (langs[repo.language] || 0) + 1
     }
-  });
+  })
 
-  let y = 60;
-  let text = "";
+  const top = Object.entries(langs)
+    .sort((a,b)=>b[1]-a[1])
+    .slice(0,5)
 
-  Object.entries(langs).slice(0,5).forEach(([lang,count])=>{
-    text += `<text x="20" y="${y}" fill="white">${lang}: ${count}</text>`;
-    y += 25;
-  });
+  const max = top[0]?.[1] || 1
+
+  let bars = ""
+
+  top.forEach(([lang,count],i)=>{
+    const width = (count/max) * 250
+    const y = 60 + i*28
+
+    bars += `
+      <text x="20" y="${y}" fill="white" font-size="13">${lang}</text>
+
+      <rect x="120" y="${y-12}" width="${width}" height="14"
+        fill="#3fb950" rx="6"/>
+
+      <text x="${120 + width + 8}" y="${y}" fill="white"
+        font-size="12">${count}</text>
+    `
+  })
 
   return `
-<svg width="450" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="220" xmlns="http://www.w3.org/2000/svg">
+
 <rect width="100%" height="100%" fill="#0d1117"/>
-<text x="20" y="40" fill="white" font-size="18">Top Languages</text>
-${text}
+
+<text x="20" y="30" fill="white" font-size="18">
+Top Languages
+</text>
+
+${bars}
+
 </svg>
-`;
+`
 }
 
 function updateTopRepos(readme, repos) {
