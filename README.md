@@ -24,7 +24,7 @@
 - 📅 Last Updated: 3/8/2026, 6:06:31 PM
 </td>
 <td width="50%">
-<img src=http://github-profile-summary-cards.vercel.app/api/cards/stats?username=chinmay0910&theme=holi/>
+<img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=chinmay0910&theme=holi"/>
 </td>
 </table>
 <!--GITHUB_STATS_END-->
