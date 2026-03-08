@@ -1,4 +1,4 @@
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chinmay0910&theme=bear)
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chinmay0910&theme=holi)
 
 # 💫 About Me:
 👨‍💻 Full-stack developer with a strong interest in cybersecurity and scalable system design  <br>🏢 Currently working as a Software Engineer at Hacktify, building security and cloud-based platforms  <br>⚙️ Experienced with Node.js, Docker, cloud infrastructure, and backend architecture  <br>🛡️ Currently building cyber-range and security training platforms  <br>🤖 Interested in automation, distributed systems, and DevSecOps  <br>🧩 Enjoy solving complex engineering problems and building systems from scratch
@@ -15,12 +15,18 @@
 ## 📊 GitHub Statistics
 
 <!--GITHUB_STATS_START-->
-
+<table>
+<tr>
+<td width="50%">
 - ⭐ Public Repositories: 46
 - 👥 Followers: 2
 - 👤 Following: 0
 - 📅 Last Updated: 3/8/2026, 6:06:31 PM
-
+</td>
+<td width="50%">
+<img src=http://github-profile-summary-cards.vercel.app/api/cards/stats?username=chinmay0910&theme=holi/>
+</td>
+</table>
 <!--GITHUB_STATS_END-->
 
 <table>
