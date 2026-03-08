@@ -2,7 +2,7 @@ name: Update README
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 */15 * *"
   workflow_dispatch:
 
 permissions:
@@ -21,13 +21,19 @@ jobs:
         with:
           node-version: 20
 
-      - name: Run script
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate stats graphs
+        run: node scripts/generate-stats.js
+
+      - name: Update README sections
         run: node scripts/update-readme.js
 
       - name: Commit changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "action@github.com"
-          git add README.md
-          git commit -m "Auto update README" || echo "No changes"
+          git add README.md assets/
+          git commit -m "Auto update README stats" || echo "No changes"
           git push
