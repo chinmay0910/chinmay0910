@@ -14,22 +14,21 @@
 
 ## 📊 GitHub Statistics
 
-<!--GITHUB_STATS_START-->
 <table>
 <tr>
 <td width="50%">
+<!--GITHUB_STATS_START-->
 - ⭐ Public Repositories: 46
 - 👥 Followers: 2
 - 👤 Following: 0
 - 📅 Last Updated: 3/8/2026, 6:06:31 PM
+<!--GITHUB_STATS_END-->
 </td>
 <td width="50%">
 <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=chinmay0910&theme=holi"/>
 </td>
-</table>
-<!--GITHUB_STATS_END-->
 
-<table>
+
 <tr>
 <td width="50%">
   <img src="https://nirzak-streak-stats.vercel.app/?user=chinmay0910&theme=dark&hide_border=false"/>
