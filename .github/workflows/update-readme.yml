@@ -21,14 +21,13 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm install
+      - name: Ensure assets folder exists
+        run: mkdir -p assets
 
-      - name: Generate stats graphs
-        run: node scripts/generate-stats.js
-
-      - name: Update README sections
-        run: node scripts/update-readme.js
+      - name: Run scripts
+        run: |
+          node scripts/generate-stats.js
+          node scripts/update-readme.js
 
       - name: Commit changes
         run: |
