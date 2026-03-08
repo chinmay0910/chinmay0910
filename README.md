@@ -24,11 +24,20 @@
 # 📊 GitHub Stats (Auto Updated)
 
 <!--GITHUB_STATS_START-->
-Loading stats...
+
+- ⭐ Public Repositories: 46
+- 👥 Followers: 2
+- 👤 Following: 0
+- 📅 Last Updated: 3/8/2026, 4:40:24 PM
+
 <!--GITHUB_STATS_END-->
 
 # 📦 Latest Repositories
 
 <!--LATEST_REPOS_START-->
-Loading repositories...
+- **chinmay0910** ⭐ 0 | 🍴 0
+- **passport-photo-maker** ⭐ 0 | 🍴 0
+- **PhishingMails_Admin** ⭐ 0 | 🍴 1
+- **ViolenceDetection** ⭐ 0 | 🍴 0
+- **Event-Management-System** ⭐ 0 | 🍴 1
 <!--LATEST_REPOS_END-->
