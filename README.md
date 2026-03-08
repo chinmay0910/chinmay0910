@@ -20,3 +20,15 @@
 
 ---
 [![](https://visitcount.itsvg.in/api?id=chinmay0910&icon=0&color=0)](https://visitcount.itsvg.in)
+
+# 📊 GitHub Stats (Auto Updated)
+
+<!--GITHUB_STATS_START-->
+Loading stats...
+<!--GITHUB_STATS_END-->
+
+# 📦 Latest Repositories
+
+<!--LATEST_REPOS_START-->
+Loading repositories...
+<!--LATEST_REPOS_END-->
