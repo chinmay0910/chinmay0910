@@ -12,10 +12,10 @@ async function fetchGitHubData() {
   const repos = await repoRes.json();
 
   const statsSection = `
-- ⭐ Public Repositories: ${user.public_repos}
-- 👥 Followers: ${user.followers}
-- 👤 Following: ${user.following}
-- 📅 Last Updated: ${new Date().toLocaleString()}
+- ⭐ Public Repositories: ${user.public_repos} <br>
+- 👥 Followers: ${user.followers} <br>
+- 👤 Following: ${user.following} <br>
+- 📅 Last Updated: ${new Date().toLocaleString()} <br>
 `;
 
   const repoSection = repos
