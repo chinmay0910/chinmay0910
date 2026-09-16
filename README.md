@@ -22,7 +22,7 @@
 - ⭐ Public Repositories: 47 <br>
 - 👥 Followers: 2 <br>
 - 👤 Following: 0 <br>
-- 📅 Last Updated: 9/1/2026, 3:21:16 AM <br>
+- 📅 Last Updated: 9/16/2026, 3:07:52 AM <br>
 
 <!--GITHUB_STATS_END-->
 </td>
@@ -58,8 +58,8 @@
 # 📦 Latest Repositories
 
 <!--LATEST_REPOS_START-->
-- **chinmay0910** ⭐ 0 | 🍴 0
 - **Chinmay-Portfolio** ⭐ 0 | 🍴 0
+- **chinmay0910** ⭐ 0 | 🍴 0
 - **passport-photo-maker** ⭐ 0 | 🍴 0
 - **PhishingMails_Admin** ⭐ 0 | 🍴 1
 - **ViolenceDetection** ⭐ 0 | 🍴 0
