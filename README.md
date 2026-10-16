@@ -19,10 +19,10 @@
 <td width="50%">
 <!--GITHUB_STATS_START-->
 
-- ⭐ Public Repositories: 47 <br>
+- ⭐ Public Repositories: 46 <br>
 - 👥 Followers: 2 <br>
 - 👤 Following: 0 <br>
-- 📅 Last Updated: 10/1/2026, 3:54:29 AM <br>
+- 📅 Last Updated: 10/16/2026, 2:57:26 AM <br>
 
 <!--GITHUB_STATS_END-->
 </td>
@@ -61,8 +61,8 @@
 - **chinmay0910** ⭐ 0 | 🍴 0
 - **Chinmay-Portfolio** ⭐ 0 | 🍴 0
 - **passport-photo-maker** ⭐ 0 | 🍴 0
-- **PhishingMails_Admin** ⭐ 0 | 🍴 1
 - **ViolenceDetection** ⭐ 0 | 🍴 0
+- **Event-Management-System** ⭐ 0 | 🍴 1
 <!--LATEST_REPOS_END-->
 
 
